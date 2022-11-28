@@ -2,11 +2,10 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import "./SearchForACountry.css";
-import SearchIcon from "../Images/search.svg";
 import { useDebounce } from "../../Hooks/DebounceHook";
 import axios from "axios";
 import Country from "../Country/Country";
-import { Link } from "react-router-dom";
+
 
 function SearchForACountry() {
   const [input, setInput] = useState("");

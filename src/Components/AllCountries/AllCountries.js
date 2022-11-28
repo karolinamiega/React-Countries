@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect} from 'react';
+import { Link } from "react-router-dom";
 import axios from 'axios';
 import './AllCountries.css';
 
@@ -25,7 +26,7 @@ function AllCountries() {
     const countryMap = countries.slice(0, visible).map((country) => {
       return(
       <div className='Countries'>
-        <h2 key={country.name.common} className="CountryName">{country.name.common}</h2>
+        <h2 key={country.name.common} className="CountryName"><Link to={`/Country/${country.name.common}`} className="Link">{country.name.common}</Link></h2>
         <img key={country.flags.png} src={country.flags.png} alt="Country-Flag"></img>
       </div>
    ); });
