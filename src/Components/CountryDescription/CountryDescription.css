@@ -1,0 +1,19 @@
+.Country{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.Country h2{
+    text-align: center;
+}
+.Country img{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    margin: 0 auto;
+}
+.Country p{
+    text-align: center;
+}

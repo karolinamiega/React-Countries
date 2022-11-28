@@ -1,0 +1,31 @@
+.CountriesTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 100%, 20%);
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+}
+.CountryImageTwo{
+    width: 160px;
+    height: 110px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin: 60px auto;
+}
+.CountryNameTwo{
+    position: absolute;
+    margin-top: -180px;
+    
+}
+.More{
+    text-align: center;
+    position: absolute;
+    margin-top: 280px;
+    text-decoration: none;
+    color: #000;
+}
+.More:hover{
+    color: grey;
+}

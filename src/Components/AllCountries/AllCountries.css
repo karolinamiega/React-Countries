@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    font-family: 'Karla', sans-serif;    
+}
+.AllCountries{
+    width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    gap: 45px;
+    border-radius: 20px;
+}
+.AllCountries h1{
+    width: 680px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 36px;
+    
+}
+.CountryName{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    color: #000;
+}
+.CountryName:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+.AllCountries img{
+    width: 150px;
+    height: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.Countries{
+    margin: 0 20px;
+}
+.LoadMore, .SearchButton{
+    margin: 20px auto;
+    padding: 15px 85px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #84c7af;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.LoadMore:hover{
+    background-color: #54c09a;
+}
+.Buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    margin: 0 auto;
+}
